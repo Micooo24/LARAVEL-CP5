@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
@@ -107,7 +108,7 @@
             #sidebar {
                 width: 0;
                 overflow: hidden;
-            }
+            }          
             #content {
                 margin-left: 0;
             }
@@ -122,9 +123,10 @@
     <div id="logo-container">
         <img src="logo/bloom.png" alt="Logo">
     </div>
-    <div id="search">&#128269;</div>
+    <div id="search"><i class="fa-solid fa-magnifying-glass"></i></div>
     <div id="user">&#128100;</div>
     <div id="cart">&#128722;</div>
+
     @yield('content')
 </div>
 
